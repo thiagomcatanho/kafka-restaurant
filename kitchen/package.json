@@ -1,0 +1,25 @@
+{
+  "name": "kitchen",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "tsc": "tsc",
+    "dev": "ts-node-dev --respawn --transpile-only src/index.ts",
+    "prod": "rax && ./dist/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "node-rdkafka": "^3.0.1",
+    "sleep": "^6.3.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.12.7",
+    "@types/sleep": "^0.0.12",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.4.5"
+  }
+}
